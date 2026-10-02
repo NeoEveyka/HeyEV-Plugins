@@ -1,0 +1,15 @@
+{
+  "id": "in.stream.livetv.india",
+  "name": "Live TV India (IPTV)",
+  "version": "1.0.1",
+  "description": "Watch 100+ Live Indian TV channels including News, Entertainment, Music, Movies & Sports.",
+  "author": "IPTV Org / Community",
+  "type": "iptv",
+  "config": {
+    "playlistUrls": [
+      "https://iptv-org.github.io/iptv/countries/in.m3u",
+      "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u",
+      "https://iptv-org.github.io/iptv/languages/hin.m3u"
+    ]
+  }
+}

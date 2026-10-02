@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="aajtak.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/aajtak.png" group-title="News",Aaj Tak HD
+https://feeds.intoday.in/aajtak/api/aajtakhd/master.m3u8
+#EXTINF:-1 tvg-id="ndtvindia.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ndtvindia.png" group-title="News",NDTV India 24x7
+https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679-b/ndtvindia/livefeed/master.m3u8
+#EXTINF:-1 tvg-id="abpnews.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/abpnews.png" group-title="News",ABP News HD
+https://abp-i.akamaized.net/hls/live/765529/abpnews/master.m3u8
+#EXTINF:-1 tvg-id="ddnational.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ddnational.png" group-title="General",DD National HD
+https://d35j504z0xlocq.cloudfront.net/out/v1/9a6950e1814e4fe5bc04e6c7ab982d61/index.m3u8
+#EXTINF:-1 tvg-id="ddsports.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/ddsports.png" group-title="Sports",DD Sports HD
+https://d35j504z0xlocq.cloudfront.net/out/v1/93b2a5b1b44b4e94b434ba5cb0b11c70/index.m3u8
+#EXTINF:-1 tvg-id="9xm.in" tvg-logo="https://raw.githubusercontent.com/iptv-org/iptv/master/logos/9xm.png" group-title="Music",9XM Music India
+https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.m3u8

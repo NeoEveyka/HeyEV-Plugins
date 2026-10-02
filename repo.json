@@ -1,0 +1,63 @@
+{
+  "repositoryName": "HeyEV Official Plugins Repository",
+  "repositoryUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/repo.json",
+  "description": "Official community plugins & extensions for Live TV streaming and HD Movies/Series playback.",
+  "version": "1.0.0",
+  "updatedAt": "2026-10-02T12:00:00Z",
+  "plugins": [
+    {
+      "id": "in.stream.hdhub4u",
+      "name": "HDHub4u Movies & Series",
+      "version": "1.0.2",
+      "description": "Streams latest Bollywood, Hollywood, South Hindi Dubbed movies and Web Series in 4K/1080p.",
+      "author": "Stream Community",
+      "type": "movies_scraper",
+      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/hdhub4u_provider.json",
+      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "config": {
+        "fallbackMirrors": [
+          "https://new1.hdhub4u.free",
+          "https://new6.hdhub4u.cl",
+          "https://hdhub4u.bi",
+          "https://hdhub4u.tv",
+          "https://hdhub4u.mom",
+          "https://hdhub4u.ms",
+          "https://4khdhub.one"
+        ],
+        "hostEndpoints": [
+          "https://h4.suncdn.org/host/",
+          "https://cdn.hub4u.cloud/host/",
+          "https://points.topapii.com/host/",
+          "https://dns.pingora.fyi/v2/host"
+        ],
+        "categories": [
+          "All",
+          "Bollywood",
+          "Hollywood",
+          "Web Series",
+          "Hindi Dubbed",
+          "4K UHD",
+          "South Hindi"
+        ]
+      }
+    },
+    {
+      "id": "in.stream.livetv.india",
+      "name": "Live TV India (IPTV)",
+      "version": "1.0.1",
+      "description": "Watch 100+ Live Indian TV channels including News, Entertainment, Music, Movies & Sports.",
+      "author": "IPTV Org / Community",
+      "type": "iptv",
+      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_india_provider.json",
+      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "config": {
+        "playlistUrls": [
+          "https://iptv-org.github.io/iptv/countries/in.m3u",
+          "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u",
+          "https://iptv-org.github.io/iptv/languages/hin.m3u",
+          "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_channels.m3u"
+        ]
+      }
+    }
+  ]
+}

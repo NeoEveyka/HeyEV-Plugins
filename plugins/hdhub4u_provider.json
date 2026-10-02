@@ -1,0 +1,34 @@
+{
+  "id": "in.stream.hdhub4u",
+  "name": "HDHub4u Movies & Series",
+  "version": "1.0.2",
+  "description": "Streams latest Bollywood, Hollywood, South Hindi Dubbed movies and Web Series in 4K/1080p.",
+  "author": "Stream Community",
+  "type": "movies_scraper",
+  "config": {
+    "fallbackMirrors": [
+      "https://new1.hdhub4u.free",
+      "https://new6.hdhub4u.cl",
+      "https://hdhub4u.bi",
+      "https://hdhub4u.tv",
+      "https://hdhub4u.mom",
+      "https://hdhub4u.ms",
+      "https://4khdhub.one"
+    ],
+    "hostEndpoints": [
+      "https://h4.suncdn.org/host/",
+      "https://cdn.hub4u.cloud/host/",
+      "https://points.topapii.com/host/",
+      "https://dns.pingora.fyi/v2/host"
+    ],
+    "categories": [
+      "All",
+      "Bollywood",
+      "Hollywood",
+      "Web Series",
+      "Hindi Dubbed",
+      "4K UHD",
+      "South Hindi"
+    ]
+  }
+}
