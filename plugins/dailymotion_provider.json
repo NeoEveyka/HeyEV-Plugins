@@ -1,0 +1,17 @@
+{
+  "id": "com.community.dailymotion",
+  "name": "Dailymotion Extractor",
+  "version": "1.0.0",
+  "description": "Resolves Dailymotion video URLs to high-speed playable HLS/MP4 streams.",
+  "author": "Open Community",
+  "type": "video_extractor",
+  "supportedDomains": [
+    "dailymotion.com",
+    "dai.ly"
+  ],
+  "config": {
+    "extractType": "api",
+    "metadataEndpoint": "https://api.dailymotion.com/video/{id}?fields=id,title,thumbnail_720_url,duration",
+    "streamEndpoint": "https://www.dailymotion.com/player/metadata/video/{id}"
+  }
+}

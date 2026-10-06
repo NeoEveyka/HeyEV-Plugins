@@ -1,9 +1,9 @@
 {
   "repositoryName": "HeyEV Official Plugins Repository",
   "repositoryUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/repo.json",
-  "description": "Official community plugins & extensions for Live TV streaming and HD Movies/Series playback.",
-  "version": "1.0.0",
-  "updatedAt": "2026-10-02T12:00:00Z",
+  "description": "Official community plugins & extensions for Live TV streaming, HD Movies, Video Extractors & Website Scrapers.",
+  "version": "1.1.0",
+  "updatedAt": "2026-10-06T12:00:00Z",
   "plugins": [
     {
       "id": "in.stream.hdhub4u",
@@ -12,8 +12,16 @@
       "description": "Streams latest Bollywood, Hollywood, South Hindi Dubbed movies and Web Series in 4K/1080p.",
       "author": "Stream Community",
       "type": "movies_scraper",
+      "iconUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/assets/hdhub.png",
       "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/hdhub4u_provider.json",
       "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "supportedDomains": [
+        "hdhub4u.tv",
+        "hdhub4u.bi",
+        "hdhub4u.ms",
+        "hdhub4u.mom",
+        "hubcloud.club"
+      ],
       "config": {
         "fallbackMirrors": [
           "https://new1.hdhub4u.free",
@@ -48,14 +56,66 @@
       "description": "Watch 100+ Live Indian TV channels including News, Entertainment, Music, Movies & Sports.",
       "author": "IPTV Org / Community",
       "type": "iptv",
+      "iconUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/assets/iptv.png",
       "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_india_provider.json",
       "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "supportedDomains": [
+        "iptv-org.github.io"
+      ],
       "config": {
         "playlistUrls": [
           "https://iptv-org.github.io/iptv/countries/in.m3u",
           "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u",
           "https://iptv-org.github.io/iptv/languages/hin.m3u",
           "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_channels.m3u"
+        ]
+      }
+    },
+    {
+      "id": "com.community.dailymotion",
+      "name": "Dailymotion Extractor",
+      "version": "1.0.0",
+      "description": "Resolves Dailymotion video URLs to high-speed playable HLS/MP4 streams.",
+      "author": "Open Community",
+      "type": "video_extractor",
+      "iconUrl": "https://static1.dmcdn.net/images/neon/favicons/favicon-32x32.png",
+      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/dailymotion_provider.json",
+      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "supportedDomains": [
+        "dailymotion.com",
+        "dai.ly"
+      ],
+      "config": {
+        "extractType": "api",
+        "metadataEndpoint": "https://api.dailymotion.com/video/{id}?fields=id,title,thumbnail_720_url,duration",
+        "streamEndpoint": "https://www.dailymotion.com/player/metadata/video/{id}"
+      }
+    },
+    {
+      "id": "org.community.archiveorg",
+      "name": "Internet Archive Media",
+      "version": "1.0.0",
+      "description": "Browse, search and stream classic public domain movies and media from Archive.org.",
+      "author": "Archive.org Community",
+      "type": "website_scraper",
+      "iconUrl": "https://archive.org/images/glogo.png",
+      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/archiveorg_provider.json",
+      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "supportedDomains": [
+        "archive.org"
+      ],
+      "config": {
+        "baseUrl": "https://archive.org",
+        "catalogEndpoint": "https://archive.org/advancedsearch.php?q=mediatype%3Amovies&fl%5B%5D=identifier,title,description,downloads&sort%5B%5D=downloads+desc&rows=30&page={page}&output=json",
+        "searchEndpoint": "https://archive.org/advancedsearch.php?q=mediatype%3Amovies+AND+{query}&fl%5B%5D=identifier,title,description,downloads&sort%5B%5D=downloads+desc&rows=30&page={page}&output=json",
+        "streamTemplate": "https://archive.org/download/{id}/{id}.mp4",
+        "thumbnailTemplate": "https://archive.org/services/img/{id}",
+        "categories": [
+          "All",
+          "Feature Films",
+          "Animation & Cartoons",
+          "Documentary",
+          "Silent Films"
         ]
       }
     }

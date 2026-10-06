@@ -1,0 +1,25 @@
+{
+  "id": "org.community.archiveorg",
+  "name": "Internet Archive Media",
+  "version": "1.0.0",
+  "description": "Browse, search and stream classic public domain movies and media from Archive.org.",
+  "author": "Archive.org Community",
+  "type": "website_scraper",
+  "supportedDomains": [
+    "archive.org"
+  ],
+  "config": {
+    "baseUrl": "https://archive.org",
+    "catalogEndpoint": "https://archive.org/advancedsearch.php?q=mediatype%3Amovies&fl%5B%5D=identifier,title,description,downloads&sort%5B%5D=downloads+desc&rows=30&page={page}&output=json",
+    "searchEndpoint": "https://archive.org/advancedsearch.php?q=mediatype%3Amovies+AND+{query}&fl%5B%5D=identifier,title,description,downloads&sort%5B%5D=downloads+desc&rows=30&page={page}&output=json",
+    "streamTemplate": "https://archive.org/download/{id}/{id}.mp4",
+    "thumbnailTemplate": "https://archive.org/services/img/{id}",
+    "categories": [
+      "All",
+      "Feature Films",
+      "Animation & Cartoons",
+      "Documentary",
+      "Silent Films"
+    ]
+  }
+}
