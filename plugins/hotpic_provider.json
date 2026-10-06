@@ -1,0 +1,36 @@
+{
+  "id": "com.community.hotpic",
+  "name": "HotPic Albums & Streams",
+  "version": "1.0.0",
+  "description": "Browse, search, extract and stream full photo and video albums from HotPic with high-res media player.",
+  "author": "HotPic Community",
+  "type": "website_scraper",
+  "iconUrl": "https://hotpic2.cc/assets/img/logo/hotpic-logo-new.svg",
+  "sourceUrl": "https://hotpic2.cc",
+  "supportedDomains": [
+    "hotpic2.cc",
+    "hotpic.cc",
+    "hotpic1.cc",
+    "hotpic.me",
+    "kiwi99.space",
+    "kiwi100.space",
+    "kiwi101.space",
+    "kiwi102.space"
+  ],
+  "config": {
+    "baseUrl": "https://hotpic2.cc",
+    "catalogEndpoint": "https://hotpic2.cc/nsfw/{page}",
+    "searchEndpoint": "https://hotpic2.cc/search/{query}/{page}",
+    "categories": [
+      "All Albums",
+      "Trending",
+      "Videos Only",
+      "Cartoons",
+      "Top Models"
+    ],
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+      "Referer": "https://hotpic2.cc/"
+    }
+  }
+}
