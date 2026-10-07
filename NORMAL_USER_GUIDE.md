@@ -63,7 +63,7 @@ Normal users ko terminal ya software install karne ki koi zaroorat nahi hai. Aap
 
 ### 📝 Step 1: Repository Fork Karein
 1. Apne phone ya PC ke browser me ye link kholein:
-   👉 **https://github.com/Rohanbania009/HeyEV-Plugins**
+   👉 **https://github.com/NeoEveyka/HeyEV-Plugins**
 2. Top right me **"Fork"** button par click karein.
 3. **"Create Fork"** dabayein. (Ab ye repo aapke apne GitHub account me copy ho gayi).
 

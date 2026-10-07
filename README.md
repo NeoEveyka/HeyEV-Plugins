@@ -1,8 +1,8 @@
 # 🧩 HeyEV Community Plugins & Extensions Repository
 
-[![HeyEV Plugins](https://img.shields.io/badge/HeyEV-Plugins%20Store-blueviolet?style=for-the-badge&logo=flutter)](https://github.com/Rohanbania009/HeyEV-Plugins)
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/Rohanbania009/HeyEV-Plugins)
-[![Community Supported](https://img.shields.io/badge/Community-Open%20Source-orange?style=for-the-badge)](https://github.com/Rohanbania009/HeyEV-Plugins)
+[![HeyEV Plugins](https://img.shields.io/badge/HeyEV-Plugins%20Store-blueviolet?style=for-the-badge&logo=flutter)](https://github.com/NeoEveyka/HeyEV-Plugins)
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)](https://github.com/NeoEveyka/HeyEV-Plugins)
+[![Community Supported](https://img.shields.io/badge/Community-Open%20Source-orange?style=for-the-badge)](https://github.com/NeoEveyka/HeyEV-Plugins)
 
 Yeh public Git repository **HeyEV Video Streaming App** ke dynamic plugins aur extensions ko host karne ke liye banayi gayi hai. Is system ki madad se koi bhi normal user ya developer **bina app ko modify/recompile kiye** naye websites, scrapers, video extractors, aur Live TV channels add kar sakta hai!
 
@@ -12,7 +12,7 @@ Yeh public Git repository **HeyEV Video Streaming App** ke dynamic plugins aur e
 
 ## 🌟 Key Features of the Plugin System
 - **⚡ 100% Modularity**: App ka jo default code aur features hain wo 100% untouched aur safe rehte hain.
-- **🌐 Public Git Ecosystem**: GitHub par repo host hoti hai (`https://github.com/Rohanbania009/HeyEV-Plugins.git`), jahan se sabhi users Discover Store me install karte hain.
+- **🌐 Public Git Ecosystem**: GitHub par repo host hoti hai (`https://github.com/NeoEveyka/HeyEV-Plugins.git`), jahan se sabhi users Discover Store me install karte hain.
 - **📺 Automatic In-App Integration**:
   - **Watch History**: Har video play hote hi app ke Watch History me save hota hai with live resume position!
   - **Cloudflare D1 Database**: Har media card par **Bookmark / Save to Library** button se Cloudflare database ("My Links") me sync hota hai.
@@ -61,7 +61,7 @@ flowchart TD
 4. **"Deploy to Cloudflare D1"** par tap karein — turant app me save ho jayega!
 
 ### 2️⃣ Option 2: GitHub Web Browser Se (Bina Terminal ke)
-1. Browser me **https://github.com/Rohanbania009/HeyEV-Plugins** kholein aur **Fork** dabayein.
+1. Browser me **https://github.com/NeoEveyka/HeyEV-Plugins** kholein aur **Fork** dabayein.
 2. `plugins/` folder ke andar **Add file $\rightarrow$ Create new file** karke template paste karein.
 3. `repo.json` me apne plugin ka naam aur download URL jod dein.
 4. **Contribute $\rightarrow$ Open Pull Request** dabayein.

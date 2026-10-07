@@ -1,10 +1,48 @@
 {
   "repositoryName": "HeyEV Official Plugins Repository",
-  "repositoryUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/repo.json",
+  "repositoryUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/repo.json",
   "description": "Official community plugins & extensions for Live TV streaming, HD Movies, Video Extractors & Website Scrapers.",
   "version": "1.1.0",
   "updatedAt": "2026-10-06T12:00:00Z",
   "plugins": [
+    {
+      "id": "in.stream.vegamovies",
+      "name": "VegaMovies HD & 4K",
+      "version": "1.0.0",
+      "description": "Stream and download Bollywood, Hollywood Dual Audio, South Indian Hindi Dubbed movies & Web Series.",
+      "author": "VegaMovies Community",
+      "type": "movies_scraper",
+      "iconUrl": "https://vegamoviess.io/templates/vegamovies/images/v-l-200x197.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/vegamovies_provider.json",
+      "sourceUrl": "https://vegamoviess.io",
+      "supportedDomains": [
+        "vegamoviess.io",
+        "vegamovies.yt",
+        "vegamovies.im",
+        "vegamovies.ph",
+        "vegamovies.dad",
+        "vegamovies.ws",
+        "vegamovies.is",
+        "nexdrive.you"
+      ],
+      "config": {
+        "baseUrl": "https://vegamoviess.io",
+        "catalogEndpoint": "https://vegamoviess.io/page/{page}/",
+        "searchEndpoint": "https://vegamoviess.io/index.php?do=search&subaction=search&story={query}",
+        "categories": [
+          "All",
+          "Bollywood",
+          "Hollywood",
+          "Dual Audio",
+          "Web Series",
+          "South Hindi",
+          "1080p FHD",
+          "300MB Movies",
+          "Action",
+          "Adventure"
+        ]
+      }
+    },
     {
       "id": "in.stream.hdhub4u",
       "name": "HDHub4u Movies & Series",
@@ -12,9 +50,9 @@
       "description": "Streams latest Bollywood, Hollywood, South Hindi Dubbed movies and Web Series in 4K/1080p.",
       "author": "Stream Community",
       "type": "movies_scraper",
-      "iconUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/assets/hdhub.png",
-      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/hdhub4u_provider.json",
-      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "iconUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/assets/hdhub.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/hdhub4u_provider.json",
+      "sourceUrl": "https://github.com/NeoEveyka/HeyEV-Plugins",
       "supportedDomains": [
         "hdhub4u.tv",
         "hdhub4u.bi",
@@ -56,9 +94,9 @@
       "description": "Watch 100+ Live Indian TV channels including News, Entertainment, Music, Movies & Sports.",
       "author": "IPTV Org / Community",
       "type": "iptv",
-      "iconUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/assets/iptv.png",
-      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_india_provider.json",
-      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "iconUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/assets/iptv.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/livetv_india_provider.json",
+      "sourceUrl": "https://github.com/NeoEveyka/HeyEV-Plugins",
       "supportedDomains": [
         "iptv-org.github.io"
       ],
@@ -67,7 +105,7 @@
           "https://iptv-org.github.io/iptv/countries/in.m3u",
           "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/in.m3u",
           "https://iptv-org.github.io/iptv/languages/hin.m3u",
-          "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/livetv_channels.m3u"
+          "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/livetv_channels.m3u"
         ]
       }
     },
@@ -79,8 +117,8 @@
       "author": "Open Community",
       "type": "video_extractor",
       "iconUrl": "https://static1.dmcdn.net/images/neon/favicons/favicon-32x32.png",
-      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/dailymotion_provider.json",
-      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/dailymotion_provider.json",
+      "sourceUrl": "https://github.com/NeoEveyka/HeyEV-Plugins",
       "supportedDomains": [
         "dailymotion.com",
         "dai.ly"
@@ -99,8 +137,8 @@
       "author": "Archive.org Community",
       "type": "website_scraper",
       "iconUrl": "https://archive.org/images/glogo.png",
-      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/archiveorg_provider.json",
-      "sourceUrl": "https://github.com/Rohanbania009/HeyEV-Plugins",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/archiveorg_provider.json",
+      "sourceUrl": "https://github.com/NeoEveyka/HeyEV-Plugins",
       "supportedDomains": [
         "archive.org"
       ],
@@ -127,7 +165,7 @@
       "author": "HotPic Community",
       "type": "website_scraper",
       "iconUrl": "https://hotpic2.cc/assets/img/logo/hotpic-logo-new.svg",
-      "downloadUrl": "https://raw.githubusercontent.com/Rohanbania009/HeyEV-Plugins/main/plugins/hotpic_provider.json",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/hotpic_provider.json",
       "sourceUrl": "https://hotpic2.cc",
       "supportedDomains": [
         "hotpic2.cc",

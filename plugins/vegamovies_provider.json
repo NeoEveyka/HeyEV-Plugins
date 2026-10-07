@@ -1,0 +1,38 @@
+{
+  "id": "in.stream.vegamovies",
+  "name": "VegaMovies HD & 4K",
+  "version": "1.0.0",
+  "description": "Stream and download Bollywood, Hollywood Dual Audio, South Indian Hindi Dubbed movies & Web Series.",
+  "author": "VegaMovies Community",
+  "type": "movies_scraper",
+  "iconUrl": "https://vegamoviess.io/templates/vegamovies/images/v-l-200x197.png",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/vegamovies_provider.json",
+  "sourceUrl": "https://vegamoviess.io",
+  "supportedDomains": [
+    "vegamoviess.io",
+    "vegamovies.yt",
+    "vegamovies.im",
+    "vegamovies.ph",
+    "vegamovies.dad",
+    "vegamovies.ws",
+    "vegamovies.is",
+    "nexdrive.you"
+  ],
+  "config": {
+    "baseUrl": "https://vegamoviess.io",
+    "catalogEndpoint": "https://vegamoviess.io/page/{page}/",
+    "searchEndpoint": "https://vegamoviess.io/index.php?do=search&subaction=search&story={query}",
+    "categories": [
+      "All",
+      "Bollywood",
+      "Hollywood",
+      "Dual Audio",
+      "Web Series",
+      "South Hindi",
+      "1080p FHD",
+      "300MB Movies",
+      "Action",
+      "Adventure"
+    ]
+  }
+}
