@@ -12,10 +12,11 @@
       "description": "Stream and download Bollywood, Hollywood Dual Audio, South Indian Hindi Dubbed movies & Web Series.",
       "author": "VegaMovies Community",
       "type": "movies_scraper",
-      "iconUrl": "https://vegamoviess.io/templates/vegamovies/images/v-l-200x197.png",
+      "iconUrl": "https://vegamoviess.build/templates/vegamovies/images/v-l-200x197.png",
       "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/vegamovies_provider.json",
-      "sourceUrl": "https://vegamoviess.io",
+      "sourceUrl": "https://vegamoviess.build",
       "supportedDomains": [
+        "vegamoviess.build",
         "vegamoviess.io",
         "vegamovies.yt",
         "vegamovies.im",
@@ -26,9 +27,9 @@
         "nexdrive.you"
       ],
       "config": {
-        "baseUrl": "https://vegamoviess.io",
-        "catalogEndpoint": "https://vegamoviess.io/page/{page}/",
-        "searchEndpoint": "https://vegamoviess.io/index.php?do=search&subaction=search&story={query}",
+        "baseUrl": "https://vegamoviess.build",
+        "catalogEndpoint": "https://vegamoviess.build/page/{page}/",
+        "searchEndpoint": "https://vegamoviess.build/index.php?do=search&subaction=search&story={query}",
         "categories": [
           "All",
           "Bollywood",
@@ -187,6 +188,49 @@
           "Videos Only",
           "Cartoons",
           "Top Models"
+        ]
+      }
+    },
+    {
+      "id": "com.community.kamababa",
+      "name": "KamaBaba Desi Streams & MMS",
+      "version": "1.1.0",
+      "description": "Stream latest Desi MMS, Viral Videos, Hardcore and trending adult clips directly in HD.",
+      "author": "KamaBaba Community",
+      "type": "website_scraper",
+      "iconUrl": "https://www.mykamababa.com/wp-content/uploads/2020/07/kamababa_logo_50px.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/kamababa_provider.json",
+      "sourceUrl": "https://www.mykamababa.com",
+      "supportedDomains": [
+        "mykamababa.com",
+        "www.mykamababa.com"
+      ],
+      "config": {
+        "baseUrl": "https://www.mykamababa.com",
+        "catalogEndpoint": "https://www.mykamababa.com/page/{page}/?filter={filter}",
+        "searchEndpoint": "https://www.mykamababa.com/page/{page}/?s={query}",
+        "categories": [
+          "All",
+          "Desi",
+          "Bhabhi",
+          "Aunty",
+          "Bangla XXX",
+          "Hardcore",
+          "HD Sex",
+          "Actress",
+          "Indian Sex",
+          "Hindi Sexy Videos",
+          "Anal",
+          "Blowjob",
+          "Maid",
+          "Lesbian",
+          "Outdoor",
+          "Nude Girls",
+          "Bathroom",
+          "Gay",
+          "Groupsex",
+          "Desi Hidden Sex",
+          "Indian"
         ]
       }
     }

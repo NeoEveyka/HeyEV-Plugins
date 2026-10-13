@@ -7,8 +7,9 @@
   "type": "movies_scraper",
   "iconUrl": "https://vegamoviess.io/templates/vegamovies/images/v-l-200x197.png",
   "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/vegamovies_provider.json",
-  "sourceUrl": "https://vegamoviess.io",
+  "sourceUrl": "https://vegamoviess.build",
   "supportedDomains": [
+    "vegamoviess.build",
     "vegamoviess.io",
     "vegamovies.yt",
     "vegamovies.im",
@@ -19,9 +20,9 @@
     "nexdrive.you"
   ],
   "config": {
-    "baseUrl": "https://vegamoviess.io",
-    "catalogEndpoint": "https://vegamoviess.io/page/{page}/",
-    "searchEndpoint": "https://vegamoviess.io/index.php?do=search&subaction=search&story={query}",
+    "baseUrl": "https://vegamoviess.build",
+    "catalogEndpoint": "https://vegamoviess.build/page/{page}/",
+    "searchEndpoint": "https://vegamoviess.build/index.php?do=search&subaction=search&story={query}",
     "categories": [
       "All",
       "Bollywood",
