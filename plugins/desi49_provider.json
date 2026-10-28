@@ -1,0 +1,40 @@
+{
+  "id": "com.community.desi49",
+  "name": "Desi49 Free Indian Adult Videos",
+  "version": "1.0.0",
+  "description": "Stream trending Desi MMS, Exclusive Indian Adult Web Series, Bhabhi, Aunty and viral hot clips in HD.",
+  "author": "Desi49 Community",
+  "type": "website_scraper",
+  "iconUrl": "https://desi49.nl/wp-content/uploads/2026/04/Desihub.png",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/desi49_provider.json",
+  "sourceUrl": "https://www.desi49.nl",
+  "supportedDomains": [
+    "desi49.nl",
+    "www.desi49.nl"
+  ],
+  "config": {
+    "baseUrl": "https://www.desi49.nl",
+    "category": "18+ Adult",
+    "is18Plus": true,
+    "isAdult": true,
+    "catalogEndpoint": "https://www.desi49.nl/page/{page}/",
+    "searchEndpoint": "https://www.desi49.nl/page/{page}/?s={query}",
+    "categories": [
+      "All",
+      "Latest Videos",
+      "Indian",
+      "Desi",
+      "Bhabhi",
+      "Aunty",
+      "MMS",
+      "Exclusive",
+      "Hardcore",
+      "Blowjob",
+      "Threesome",
+      "Celebrity",
+      "Public",
+      "Viral",
+      "Others"
+    ]
+  }
+}

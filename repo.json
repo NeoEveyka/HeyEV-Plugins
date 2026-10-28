@@ -8,39 +8,42 @@
     {
       "id": "in.stream.vegamovies",
       "name": "VegaMovies HD & 4K",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "Stream and download Bollywood, Hollywood Dual Audio, South Indian Hindi Dubbed movies & Web Series.",
       "author": "VegaMovies Community",
       "type": "movies_scraper",
-      "iconUrl": "https://vegamoviess.build/templates/vegamovies/images/v-l-200x197.png",
+      "iconUrl": "https://vegamoviess.actor/templates/vegamovies/images/v-l-200x197.png",
       "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/vegamovies_provider.json",
-      "sourceUrl": "https://vegamoviess.build",
+      "sourceUrl": "https://vegamoviess.actor",
       "supportedDomains": [
-        "vegamoviess.build",
-        "vegamoviess.io",
-        "vegamovies.yt",
-        "vegamovies.im",
-        "vegamovies.ph",
-        "vegamovies.dad",
-        "vegamovies.ws",
-        "vegamovies.is",
-        "nexdrive.you"
+        "vegamoviess.actor",
+        "nexdrive.you",
+        "nexdrive.bet",
+        "fast-dl.one",
+        "vgmlinks.live"
       ],
       "config": {
-        "baseUrl": "https://vegamoviess.build",
-        "catalogEndpoint": "https://vegamoviess.build/page/{page}/",
-        "searchEndpoint": "https://vegamoviess.build/index.php?do=search&subaction=search&story={query}",
+        "baseUrl": "https://vegamoviess.actor",
+        "catalogEndpoint": "https://vegamoviess.actor/page/{page}/",
+        "searchEndpoint": "https://vegamoviess.actor/?s={query}",
         "categories": [
           "All",
           "Bollywood",
-          "Hollywood",
           "Dual Audio",
+          "Hollywood",
           "Web Series",
           "South Hindi",
           "1080p FHD",
-          "300MB Movies",
+          "720p HD",
+          "Telugu",
+          "Tamil",
           "Action",
-          "Adventure"
+          "Comedy",
+          "Horror",
+          "Drama",
+          "Thriller",
+          "Animation",
+          "300MB Movies"
         ]
       }
     },
@@ -231,6 +234,87 @@
           "Groupsex",
           "Desi Hidden Sex",
           "Indian"
+        ]
+      }
+    },
+    {
+      "id": "com.community.desi49",
+      "name": "Desi49 Free Indian Adult Videos",
+      "version": "1.0.0",
+      "description": "Stream trending Desi MMS, Exclusive Indian Adult Web Series, Bhabhi, Aunty and viral hot clips in HD.",
+      "author": "Desi49 Community",
+      "type": "website_scraper",
+      "iconUrl": "https://desi49.nl/wp-content/uploads/2026/04/Desihub.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/desi49_provider.json",
+      "sourceUrl": "https://www.desi49.nl",
+      "supportedDomains": [
+        "desi49.nl",
+        "www.desi49.nl"
+      ],
+      "config": {
+        "baseUrl": "https://www.desi49.nl",
+        "category": "18+ Adult",
+        "is18Plus": true,
+        "isAdult": true,
+        "catalogEndpoint": "https://www.desi49.nl/page/{page}/",
+        "searchEndpoint": "https://www.desi49.nl/page/{page}/?s={query}",
+        "categories": [
+          "All",
+          "Latest Videos",
+          "Indian",
+          "Desi",
+          "Bhabhi",
+          "Aunty",
+          "MMS",
+          "Exclusive",
+          "Hardcore",
+          "Blowjob",
+          "Threesome",
+          "Celebrity",
+          "Public",
+          "Viral",
+          "Others"
+        ]
+      }
+    },
+    {
+      "id": "com.community.auntymaza",
+      "name": "AuntyMaza Desi Hot Videos",
+      "version": "1.0.0",
+      "description": "Stream high-definition Indian Desi Porn, Viral MMS, Uncut Web Series, Hot Aunty & Bhabhi videos directly with high-speed Go Engine.",
+      "author": "AuntyMaza Community",
+      "type": "website_scraper",
+      "iconUrl": "https://auntymaza.co.im/wp-content/themes/retrotube/images/logo.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/auntymaza_provider.json",
+      "sourceUrl": "https://auntymaza.co.im",
+      "supportedDomains": [
+        "auntymaza.co.im",
+        "www.auntymaza.co.im",
+        "luluvido.com",
+        "luluvdo.com",
+        "lulustream.com"
+      ],
+      "config": {
+        "baseUrl": "https://auntymaza.co.im",
+        "category": "18+ Adult",
+        "is18Plus": true,
+        "isAdult": true,
+        "catalogEndpoint": "https://auntymaza.co.im/page/{page}/",
+        "searchEndpoint": "https://auntymaza.co.im/page/{page}/?s={query}",
+        "categories": [
+          "All",
+          "Best Indian Porn",
+          "Viral MMS",
+          "Doggy Fuck",
+          "Latest Web Series",
+          "Desi MMS",
+          "Desi Porn",
+          "Actress Porn",
+          "App Content",
+          "Mature",
+          "Model Sex",
+          "Lesbian",
+          "Ibamovies"
         ]
       }
     }
