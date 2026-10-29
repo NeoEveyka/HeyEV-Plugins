@@ -278,47 +278,6 @@
       }
     },
     {
-      "id": "com.community.auntymaza",
-      "name": "AuntyMaza Desi Hot Videos",
-      "version": "1.0.0",
-      "description": "Stream high-definition Indian Desi Porn, Viral MMS, Uncut Web Series, Hot Aunty & Bhabhi videos directly with high-speed Go Engine.",
-      "author": "AuntyMaza Community",
-      "type": "website_scraper",
-      "iconUrl": "https://auntymaza.co.im/wp-content/themes/retrotube/images/logo.png",
-      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/auntymaza_provider.json",
-      "sourceUrl": "https://auntymaza.co.im",
-      "supportedDomains": [
-        "auntymaza.co.im",
-        "www.auntymaza.co.im",
-        "luluvido.com",
-        "luluvdo.com",
-        "lulustream.com"
-      ],
-      "config": {
-        "baseUrl": "https://auntymaza.co.im",
-        "category": "18+ Adult",
-        "is18Plus": true,
-        "isAdult": true,
-        "catalogEndpoint": "https://auntymaza.co.im/page/{page}/",
-        "searchEndpoint": "https://auntymaza.co.im/page/{page}/?s={query}",
-        "categories": [
-          "All",
-          "Best Indian Porn",
-          "Viral MMS",
-          "Doggy Fuck",
-          "Latest Web Series",
-          "Desi MMS",
-          "Desi Porn",
-          "Actress Porn",
-          "App Content",
-          "Mature",
-          "Model Sex",
-          "Lesbian",
-          "Ibamovies"
-        ]
-      }
-    },
-    {
       "id": "com.community.pornhub",
       "name": "Pornhub HD Videos",
       "version": "1.0.0",
@@ -413,6 +372,45 @@
           "Mature",
           "Japanese",
           "Hardcore"
+        ]
+      }
+    },
+    {
+      "id": "com.community.pimpbunny",
+      "name": "PimpBunny HD Streams",
+      "version": "1.0.0",
+      "description": "Stream Ultra HD adult videos, trending clips, model channels and exclusive content from PimpBunny with high-speed direct playback.",
+      "author": "PimpBunny Community",
+      "type": "website_scraper",
+      "iconUrl": "https://pimpbunny.com/static/v2/images/favicon/favicon-32x32.png",
+      "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/pimpbunny_provider.json",
+      "sourceUrl": "https://pimpbunny.com",
+      "supportedDomains": [
+        "pimpbunny.com",
+        "www.pimpbunny.com"
+      ],
+      "config": {
+        "baseUrl": "https://pimpbunny.com",
+        "category": "18+ Adult",
+        "is18Plus": true,
+        "isAdult": true,
+        "catalogEndpoint": "https://pimpbunny.com/videos/{page}",
+        "searchEndpoint": "https://pimpbunny.com/search/{query}/{page}",
+        "categories": [
+          "All",
+          "Trending",
+          "Most Viewed",
+          "Best Rated",
+          "Exclusive",
+          "4K",
+          "BBC",
+          "MILF",
+          "Big Boobs",
+          "Blowjob",
+          "Anal",
+          "Lesbian",
+          "Threesome",
+          "Deep Throat"
         ]
       }
     }

@@ -1,0 +1,39 @@
+{
+  "id": "com.community.pimpbunny",
+  "name": "PimpBunny HD Streams",
+  "version": "1.0.0",
+  "description": "Stream Ultra HD adult videos, trending clips, model channels and exclusive content from PimpBunny with high-speed direct playback.",
+  "author": "PimpBunny Community",
+  "type": "website_scraper",
+  "iconUrl": "https://pimpbunny.com/static/v2/images/favicon/favicon-32x32.png",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/pimpbunny_provider.json",
+  "sourceUrl": "https://pimpbunny.com",
+  "supportedDomains": [
+    "pimpbunny.com",
+    "www.pimpbunny.com"
+  ],
+  "config": {
+    "baseUrl": "https://pimpbunny.com",
+    "category": "18+ Adult",
+    "is18Plus": true,
+    "isAdult": true,
+    "catalogEndpoint": "https://pimpbunny.com/videos/{page}",
+    "searchEndpoint": "https://pimpbunny.com/search/{query}/{page}",
+    "categories": [
+      "All",
+      "Trending",
+      "Most Viewed",
+      "Best Rated",
+      "Exclusive",
+      "4K",
+      "BBC",
+      "MILF",
+      "Big Boobs",
+      "Blowjob",
+      "Anal",
+      "Lesbian",
+      "Threesome",
+      "Deep Throat"
+    ]
+  }
+}
