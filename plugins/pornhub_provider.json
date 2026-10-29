@@ -1,0 +1,48 @@
+{
+  "id": "com.community.pornhub",
+  "name": "Pornhub HD Videos",
+  "version": "1.0.0",
+  "description": "Stream high-definition videos, trending clips, and explore channels directly from Pornhub with high-speed playback.",
+  "author": "Pornhub Community",
+  "type": "website_scraper",
+  "iconUrl": "https://ci.phncdn.com/www-static/favicon.ico",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/pornhub_provider.json",
+  "sourceUrl": "https://www.pornhub.org",
+  "supportedDomains": [
+    "pornhub.org",
+    "www.pornhub.org",
+    "pornhub.com",
+    "www.pornhub.com",
+    "pornhubpremium.com",
+    "phncdn.com"
+  ],
+  "config": {
+    "baseUrl": "https://www.pornhub.org",
+    "category": "18+ Adult",
+    "is18Plus": true,
+    "isAdult": true,
+    "catalogEndpoint": "https://www.pornhub.org/video?page={page}",
+    "searchEndpoint": "https://www.pornhub.org/video/search?search={query}&page={page}",
+    "categories": [
+      "All",
+      "Trending",
+      "Most Viewed",
+      "Top Rated",
+      "Indian",
+      "Desi",
+      "HD",
+      "Amateur",
+      "Verified Amateurs",
+      "POV",
+      "Blowjob",
+      "Lesbian",
+      "MILF",
+      "Teen",
+      "Threesome",
+      "Anal",
+      "Mature",
+      "Japanese"
+    ]
+  }
+}
+

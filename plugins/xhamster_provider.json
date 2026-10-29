@@ -1,0 +1,51 @@
+{
+  "id": "com.community.xhamster",
+  "name": "xHamster HD Videos",
+  "version": "1.0.0",
+  "description": "Stream high-definition videos, 4K clips, trending adult series, and top creators directly from xHamster with high-speed playback.",
+  "author": "xHamster Community",
+  "type": "website_scraper",
+  "iconUrl": "https://xhamster.com/favicon.ico",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/xhamster_provider.json",
+  "sourceUrl": "https://xhamster.com",
+  "supportedDomains": [
+    "xhamster.com",
+    "www.xhamster.com",
+    "xhwide.com",
+    "www.xhwide.com",
+    "xhopen.com",
+    "xhvid.com",
+    "xhamster.desi",
+    "xhamster2.desi",
+    "xhcdn.com",
+    "xhpingcdn.com"
+  ],
+  "config": {
+    "baseUrl": "https://xhwide.com",
+    "category": "18+ Adult",
+    "is18Plus": true,
+    "isAdult": true,
+    "catalogEndpoint": "https://xhwide.com/best/{page}",
+    "searchEndpoint": "https://xhwide.com/search/{query}/{page}",
+    "categories": [
+      "All",
+      "Best",
+      "Trending",
+      "Indian",
+      "Desi",
+      "4K UHD",
+      "HD",
+      "Amateur",
+      "POV",
+      "Blowjob",
+      "Lesbian",
+      "MILF",
+      "Teen",
+      "Threesome",
+      "Anal",
+      "Mature",
+      "Japanese",
+      "Hardcore"
+    ]
+  }
+}
