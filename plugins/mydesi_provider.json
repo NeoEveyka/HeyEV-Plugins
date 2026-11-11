@@ -1,0 +1,42 @@
+{
+  "id": "com.community.mydesi",
+  "name": "Mydesi 18+ Indian Adult Streams",
+  "version": "1.0.0",
+  "description": "Stream trending Desi MMS, Indian Adult Web Series, Bhabhi, Aunty and viral hot clips from Mydesi network in HD.",
+  "author": "Mydesi Community",
+  "type": "website_scraper",
+  "iconUrl": "https://mydesi.net/wp-content/uploads/2026/01/mydesi-logo.png",
+  "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/mydesi_provider.json",
+  "sourceUrl": "https://mydesi.net",
+  "supportedDomains": [
+    "mydesi.net",
+    "www.mydesi.net",
+    "p4455.com",
+    "www.p4455.com"
+  ],
+  "config": {
+    "baseUrl": "https://mydesi.net",
+    "category": "18+ Adult",
+    "is18Plus": true,
+    "isAdult": true,
+    "catalogEndpoint": "https://mydesi.net/page/{page}/",
+    "searchEndpoint": "https://mydesi.net/page/{page}/?s={query}",
+    "categories": [
+      "All",
+      "Latest Videos",
+      "Indian",
+      "Desi",
+      "Bhabhi",
+      "Aunty",
+      "MMS",
+      "Exclusive",
+      "Hardcore",
+      "Blowjob",
+      "Threesome",
+      "Celebrity",
+      "Public",
+      "Viral",
+      "Others"
+    ]
+  }
+}

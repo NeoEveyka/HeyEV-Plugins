@@ -7,17 +7,19 @@
   "type": "website_scraper",
   "iconUrl": "https://ci.phncdn.com/www-static/favicon.ico",
   "downloadUrl": "https://raw.githubusercontent.com/NeoEveyka/HeyEV-Plugins/main/plugins/pornhub_provider.json",
-  "sourceUrl": "https://www.pornhub.org",
+  "sourceUrl": "https://de.pornhub.org",
   "supportedDomains": [
     "pornhub.org",
     "www.pornhub.org",
+    "de.pornhub.org",
+    "www.de.pornhub.org",
     "pornhub.com",
     "www.pornhub.com",
     "pornhubpremium.com",
     "phncdn.com"
   ],
   "config": {
-    "baseUrl": "https://www.pornhub.org",
+    "baseUrl": "https://de.pornhub.org",
     "category": "18+ Adult",
     "is18Plus": true,
     "isAdult": true,
